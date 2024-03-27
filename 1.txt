@@ -1,0 +1,37 @@
+VUE官网   https://cn.vuejs.org
+QUARSAR：http://www.quasarchs.com/
+DROOLS规则引擎：https://www.ytooo.top/34871.html
+若依：http://doc.ruoyi.vip/
+--------------------
+代码管理：http://10.168.2.202/users/sign_in
+容器管理：http://10.168.2.203:9000/    admin / Zmlm@2022   这里可以查看有哪些微服务以及地址
+配置管理：http://10.168.2.203:8848/nacos    这里可以查看微服务的账号,比如达梦数据库，RABBITMQ,MQTT等都都在这里查看IP和账号
+物联基础平台：http://10.168.2.205:9088        admin/ admin123
+安全态势感知：http://10.168.2.205:9086/#/    admin/ admin123 旧版，搬过来后缺少环境很多元素没有跑得起来。
+
+
+
+
+物联网目前涉及到的技术：
+部署运维：docker
+后台：springcloud mybatis mybatis-plus、autho2认证
+前端：vue element-ui quasar
+关系数据库： 达梦、mysql
+非关系数据库： elasticsearch、clickhouse                
+环境：centos windows
+第3方应用： redis、nacos、zipkin等
+物联网平台参考：主要参考阿里的物联网平台，还参考了鸿蒙系统，百度等的一些设计
+
+---------------------------------------------------------------------------------------------
+npm 与 yarn 命令比较
+NPM	YARN	说明
+npm init	yarn init	初始化某个项目
+手机	$12机	$12
+npm install / link	yarn install/link	默认的安装依赖操作
+npm install taco --save	yarn add taco	安装某个依赖，并且默认保存到package
+npm uninstall taco --save	yarn remove taco	移除某个依赖项目
+npm install taco --save-dev	yarn add taco --dev	安装某个开发时依赖项目
+npm update taco --save	yarn upgrade taco	更新某个依赖项目
+npm install taco --global	yarn global add taco	安装某个全局依赖项目
+npm publish/login/logout	yarn publish/login/logout	发布/登录/登出，一系列NPM Registry操作
+npm run/test	yarn run/test	运行某个命令
